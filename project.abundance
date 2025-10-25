@@ -100,8 +100,8 @@
     {
       "atomType": "Fusion",
       "name": "Fusion",
-      "x": 0.727107558139535,
-      "y": 0.3008,
+      "x": 0.7848837209302325,
+      "y": 0.2336,
       "uniqueID": "208eaf99-4622-44d5-8993-dbd8defd5dbf",
       "ioValues": [
         {
@@ -156,6 +156,33 @@
             },
             "color": "#aad7f2",
             "bom": []
+          }
+        },
+        {
+          "name": "Shape 4",
+          "ioValue": {
+            "geometry": "intersect-move-rectangle-20-20-4.75-10-0-move-rotate-rectangle-13.788582233137678-13.788582233137678-0-0-45-4.75-0-0",
+            "tags": [],
+            "color": "#aad7f2",
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "bom": [],
+            "dimension": "2D"
           }
         }
       ],
@@ -252,8 +279,8 @@
     {
       "atomType": "Move",
       "name": "Move",
-      "x": 0.6199127906976744,
-      "y": 0.624,
+      "x": 0.623546511627907,
+      "y": 0.5984,
       "uniqueID": "2d4dfa27-2c13-45a0-a30b-5a2ae94a1a53",
       "ioValues": [
         {
@@ -287,23 +314,23 @@
     {
       "atomType": "Rectangle",
       "name": "Rectangle",
-      "x": 0.5915697674418605,
-      "y": 0.136,
+      "x": 0.5832122093023255,
+      "y": 0.09440000000000001,
       "uniqueID": "ce5582b7-a437-4e89-a47c-8f6bdcb11efa",
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 19.5
+          "ioValue": 20
         },
         {
           "name": "y length",
-          "ioValue": 19.5
+          "ioValue": 20
         }
       ]
     },
     {
       "atomType": "Equation",
-      "name": "width+width*0.95",
+      "name": "width*2",
       "x": 0.4854651162790698,
       "y": 0.112,
       "uniqueID": "b72113ff-5bd3-4c45-abc7-6308d715953c",
@@ -314,18 +341,18 @@
           "currentEquation": "1"
         }
       ],
-      "currentEquation": "width+width*0.95"
+      "currentEquation": "width*2"
     },
     {
       "atomType": "Move",
       "name": "Move",
-      "x": 0.6849563953488372,
-      "y": 0.1792,
+      "x": 0.6613372093023256,
+      "y": 0.152,
       "uniqueID": "8b16041e-b1d8-4ed7-bf91-a003bb07badc",
       "ioValues": [
         {
           "name": "xDist",
-          "ioValue": 0
+          "ioValue": 4.75
         },
         {
           "name": "yDist",
@@ -336,6 +363,14 @@
           "ioValue": 0
         }
       ]
+    },
+    {
+      "atomType": "Intersection",
+      "name": "Intersection",
+      "x": 0.6947674418604651,
+      "y": 0.528,
+      "uniqueID": "76b03c3d-fe30-431c-9528-9ce392c4515a",
+      "ioValues": []
     }
   ],
   "allConnectors": [
@@ -454,10 +489,22 @@
       "ap2ID": "3f4a3c32-49aa-4451-9820-eeb668c8836b"
     },
     {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry2",
+      "ap1ID": "2d4dfa27-2c13-45a0-a30b-5a2ae94a1a53",
+      "ap2ID": "76b03c3d-fe30-431c-9528-9ce392c4515a"
+    },
+    {
       "ap1Name": "result",
       "ap2Name": "xDist",
       "ap1ID": "1d5cc06b-e784-4719-b45e-1f3ffd9c3df7",
       "ap2ID": "2d4dfa27-2c13-45a0-a30b-5a2ae94a1a53"
+    },
+    {
+      "ap1Name": "result",
+      "ap2Name": "xDist",
+      "ap1ID": "1d5cc06b-e784-4719-b45e-1f3ffd9c3df7",
+      "ap2ID": "8b16041e-b1d8-4ed7-bf91-a003bb07badc"
     },
     {
       "ap1Name": "geometry",
@@ -476,6 +523,18 @@
       "ap2Name": "y length",
       "ap1ID": "b72113ff-5bd3-4c45-abc7-6308d715953c",
       "ap2ID": "ce5582b7-a437-4e89-a47c-8f6bdcb11efa"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry1",
+      "ap1ID": "8b16041e-b1d8-4ed7-bf91-a003bb07badc",
+      "ap2ID": "76b03c3d-fe30-431c-9528-9ce392c4515a"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "Shape 4",
+      "ap1ID": "76b03c3d-fe30-431c-9528-9ce392c4515a",
+      "ap2ID": "208eaf99-4622-44d5-8993-dbd8defd5dbf"
     }
   ],
   "unitsKey": "MM",
