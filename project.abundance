@@ -1,0 +1,15 @@
+{
+    "atomType": "Molecule",
+    "name": "maslow-heart",
+    "x": 0,
+    "y": 0,
+    "uniqueID": "635f28f1-dfdd-4abb-9ac9-8de9fa51dd7c",
+    "ioValues": [],
+    "topLevel": true,
+    "allAtoms": [],
+    "allConnectors": [],
+    "unitsKey": "MM",
+    "fileTypeVersion": 1,
+    "compiledBom": {},
+    "filetypeVersion": 1
+}
