@@ -5,6 +5,7 @@
 ![](/project.svg)
 
 
+<img width="322" height="307" alt="grafik" src="https://github.com/user-attachments/assets/bf0ea9c1-4a20-4507-a6eb-49bffa48cf65" />
 
  
 
