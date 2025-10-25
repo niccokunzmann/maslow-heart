@@ -1,15 +1,37 @@
 {
-    "atomType": "Molecule",
-    "name": "maslow-heart",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "635f28f1-dfdd-4abb-9ac9-8de9fa51dd7c",
-    "ioValues": [],
-    "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
-    "unitsKey": "MM",
-    "fileTypeVersion": 1,
-    "compiledBom": {},
-    "filetypeVersion": 1
+  "atomType": "Molecule",
+  "name": "maslow-heart",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "635f28f1-dfdd-4abb-9ac9-8de9fa51dd7c",
+  "ioValues": [],
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "name": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "0bf267f1-fda7-4c36-9176-ad97ce3835ab",
+      "ioValues": []
+    },
+    {
+      "atomType": "Circle",
+      "name": "Circle",
+      "x": 0.26927083333333335,
+      "y": 0.48394495412844035,
+      "uniqueID": "d6ff4c2c-36a2-4866-a747-c2e83067833b",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 10
+        }
+      ]
+    }
+  ],
+  "allConnectors": [],
+  "unitsKey": "MM",
+  "fileTypeVersion": 1,
+  "compiledBom": {},
+  "filetypeVersion": 1
 }
