@@ -187,6 +187,32 @@
           "ioValue": 10
         }
       ]
+    },
+    {
+      "atomType": "RegularPolygon",
+      "name": "RegularPolygon",
+      "x": 0.5108333333333334,
+      "y": 0.8733944954128441,
+      "uniqueID": "103e248e-a685-41bb-9996-352aec031152",
+      "ioValues": [
+        {
+          "name": "number of sides",
+          "ioValue": 6
+        },
+        {
+          "name": "diameter",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Constant",
+      "name": "Constant",
+      "x": 0.4933333333333333,
+      "y": 0.8256880733944955,
+      "uniqueID": "3a268e1a-6e63-491a-8548-248e6779cab7",
+      "ioValues": [],
+      "value": 10
     }
   ],
   "allConnectors": [
